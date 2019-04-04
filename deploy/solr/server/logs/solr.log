@@ -1,0 +1,263 @@
+INFO  - 2019-04-04 00:31:02.229; [   ] org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2019-04-04 00:31:02.245; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor C:\projects\semantic-knowledge-graph\deploy\solr\server\contexts at interval 0
+INFO  - 2019-04-04 00:31:02.260; [   ] org.eclipse.jetty.deploy.DeploymentManager; Deployable added: C:\projects\semantic-knowledge-graph\deploy\solr\server\contexts\solr-jetty-context.xml
+INFO  - 2019-04-04 00:31:02.307; [   ] org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/webapps/solr.war!/ to C:\projects\semantic-knowledge-graph\deploy\solr\server\solr-webapp\webapp
+INFO  - 2019-04-04 00:31:04.631; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2019-04-04 00:31:04.694; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()WebAppClassLoader=131206411@7d20d0b
+INFO  - 2019-04-04 00:31:04.709; [   ] org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2019-04-04 00:31:04.709; [   ] org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: C:/projects/semantic-knowledge-graph/deploy/solr/server/solr
+INFO  - 2019-04-04 00:31:04.709; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:/projects/semantic-knowledge-graph/deploy/solr/server/solr\'
+INFO  - 2019-04-04 00:31:05.084; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\solr.xml
+INFO  - 2019-04-04 00:31:05.427; [   ] org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: C:\projects\semantic-knowledge-graph\deploy\solr\server\solr
+INFO  - 2019-04-04 00:31:05.458; [   ] org.apache.solr.core.CoreContainer; New CoreContainer 1600594643
+INFO  - 2019-04-04 00:31:05.458; [   ] org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=C:/projects/semantic-knowledge-graph/deploy/solr/server/solr\]
+INFO  - 2019-04-04 00:31:05.458; [   ] org.apache.solr.core.CoreContainer; loading shared library: C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\lib
+WARN  - 2019-04-04 00:31:05.458; [   ] org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\lib).
+INFO  - 2019-04-04 00:31:05.474; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 600000
+INFO  - 2019-04-04 00:31:05.474; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 60000
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnections to: 10000
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2019-04-04 00:31:05.489; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2019-04-04 00:31:06.191; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2019-04-04 00:31:06.207; [   ] org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2019-04-04 00:31:06.207; [   ] org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2019-04-04 00:31:06.207; [   ] org.apache.solr.core.CoreContainer; Node Name: 
+INFO  - 2019-04-04 00:31:06.238; [   ] org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath C:\projects\semantic-knowledge-graph\deploy\solr\server\solr
+INFO  - 2019-04-04 00:31:06.269; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=core0, config=solrconfig.xml, instanceDir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0, loadOnStartup=true, absoluteInstDir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\, schema=schema.xml, transient=false, dataDir=data\}
+INFO  - 2019-04-04 00:31:06.269; [   ] org.apache.solr.core.CorePropertiesLocator; Found core core0 in C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\
+INFO  - 2019-04-04 00:31:06.269; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=knowledge-graph, config=solrconfig.xml, instanceDir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph, loadOnStartup=true, absoluteInstDir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\, schema=schema.xml, transient=false, dataDir=data\}
+INFO  - 2019-04-04 00:31:06.269; [   ] org.apache.solr.core.CorePropertiesLocator; Found core knowledge-graph in C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\
+INFO  - 2019-04-04 00:31:06.269; [   ] org.apache.solr.core.CorePropertiesLocator; Found 2 core definitions
+INFO  - 2019-04-04 00:31:06.269; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\'
+INFO  - 2019-04-04 00:31:06.269; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\'
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : -1
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : -1
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-continuation-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-deploy-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-http-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-io-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-jmx-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-rewrite-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-security-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-server-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-servlet-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-util-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-webapp-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/jetty-xml-8.1.10.v20130312.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/knowledge-graph-1.0-SNAPSHOT.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/original-knowledge-graph-1.0-SNAPSHOT.jar' to classloader
+INFO  - 2019-04-04 00:31:06.347; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/projects/semantic-knowledge-graph/deploy/solr/server/lib/servlet-api-3.0.jar' to classloader
+INFO  - 2019-04-04 00:31:06.363; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.7.0
+INFO  - 2019-04-04 00:31:06.379; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 5.10.0
+INFO  - 2019-04-04 00:31:06.425; [   ] org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2019-04-04 00:31:06.441; [   ] org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2019-04-04 00:31:06.441; [   ] org.apache.solr.schema.IndexSchema; Reading Solr Schema from C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\conf\schema.xml
+INFO  - 2019-04-04 00:31:06.441; [   ] org.apache.solr.schema.IndexSchema; Reading Solr Schema from C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\conf\schema.xml
+INFO  - 2019-04-04 00:31:06.457; [   ] org.apache.solr.schema.IndexSchema; [knowledge-graph] Schema name=blank
+INFO  - 2019-04-04 00:31:06.457; [   ] org.apache.solr.schema.IndexSchema; [core0] Schema name=health-check-core
+INFO  - 2019-04-04 00:31:06.488; [   ] org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2019-04-04 00:31:06.503; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'core0' using configuration from instancedir C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\
+INFO  - 2019-04-04 00:31:06.503; [   ] org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2019-04-04 00:31:06.535; [   ] org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2019-04-04 00:31:06.535; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'knowledge-graph' using configuration from instancedir C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\
+INFO  - 2019-04-04 00:31:06.535; [   ] org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2019-04-04 00:31:06.535; [   ] org.apache.solr.core.SolrCore; [core0] Opening new SolrCore at C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\, dataDir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\data\
+INFO  - 2019-04-04 00:31:06.535; [   ] org.apache.solr.core.SolrCore; [knowledge-graph] Opening new SolrCore at C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\, dataDir=../../../cores/skg/data\
+INFO  - 2019-04-04 00:31:06.535; [   ] org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2019-04-04 00:31:06.535; [   ] org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2019-04-04 00:31:06.581; [   ] org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\data
+INFO  - 2019-04-04 00:31:06.581; [   ] org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\projects\semantic-knowledge-graph\cores\skg\data
+INFO  - 2019-04-04 00:31:06.581; [   ] org.apache.solr.core.SolrCore; New index directory detected: old=null new=../../../cores/skg/data\index/
+INFO  - 2019-04-04 00:31:06.581; [   ] org.apache.solr.core.SolrCore; New index directory detected: old=null new=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\data\index/
+WARN  - 2019-04-04 00:31:06.581; [   ] org.apache.solr.core.SolrCore; [knowledge-graph] Solr index directory '..\..\..\cores\skg\data\index' doesn't exist. Creating new index...
+WARN  - 2019-04-04 00:31:06.581; [   ] org.apache.solr.core.SolrCore; [core0] Solr index directory 'C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\data\index' doesn't exist. Creating new index...
+INFO  - 2019-04-04 00:31:06.597; [   ] org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\projects\semantic-knowledge-graph\cores\skg\data\index
+INFO  - 2019-04-04 00:31:06.597; [   ] org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\data\index
+INFO  - 2019-04-04 00:31:06.659; [   ] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1dbd7361; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-04 00:31:06.659; [   ] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\projects\semantic-knowledge-graph\cores\skg\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1dbd7361; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-04 00:31:06.659; [   ] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-04 00:31:06.659; [   ] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-04 00:31:06.815; [   ] org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2019-04-04 00:31:06.831; [   ] org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2019-04-04 00:31:06.847; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-04 00:31:06.847; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-04 00:31:06.847; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-04 00:31:06.847; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-04 00:31:06.847; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-04 00:31:06.847; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-04 00:31:06.847; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-04 00:31:06.847; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2019-04-04 00:31:06.862; [   ] org.apache.solr.core.PluginBag; requestHandler : '/analysis/field' created with startup=lazy 
+INFO  - 2019-04-04 00:31:06.862; [   ] org.apache.solr.core.PluginBag; requestHandler : '/analysis/document' created with startup=lazy 
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.core.PluginBag; requestHandler : '/analysis/field' created with startup=lazy 
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.core.PluginBag; requestHandler : '/analysis/document' created with startup=lazy 
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.core.PluginBag; requestHandler : '/terms' created with startup=lazy 
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.core.RequestHandlers; Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/get,/admin/properties,/update/json,/admin/threads,/rel,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin,/admin/ping,/update,/admin/file,/terms
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.core.SolrCore; Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+WARN  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.admin.AdminHandlers]. Please consult documentation how to replace it accordingly.
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.core.RequestHandlers; Registered paths: /admin/mbeans,/analysis/document,/update/csv,/update/json/docs,/admin/luke,/select,/admin/segments,/get,/admin/system,/replication,/admin/properties,/config,/schema,/admin/plugins,/admin/logging,/update/json,/admin,/admin/threads,/admin/ping,/update,/admin/file,/analysis/field
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.core.SolrCore; Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2019-04-04 00:31:06.878; [   ] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10
+INFO  - 2019-04-04 00:31:06.893; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2019-04-04 00:31:06.893; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2019-04-04 00:31:06.909; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2019-04-04 00:31:06.909; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: if uncommited for 100000ms; 
+INFO  - 2019-04-04 00:31:06.909; [   ] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1dbd7361; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-04 00:31:06.909; [   ] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-04 00:31:06.909; [   ] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\projects\semantic-knowledge-graph\cores\skg\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1dbd7361; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2019-04-04 00:31:06.909; [   ] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@38787b06[core0] main
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@3c7d69a3[knowledge-graph] main
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\conf
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\conf
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\conf}
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\conf}
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\conf
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\conf
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2019-04-04 00:31:06.925; [   ] org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+WARN  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.handler.admin.AdminHandlers; <requestHandler name="/admin/" 
+ class="solr.admin.AdminHandlers" /> is deprecated . It is not required anymore
+WARN  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.handler.admin.AdminHandlers; <requestHandler name="/admin/" 
+ class="solr.admin.AdminHandlers" /> is deprecated . It is not required anymore
+INFO  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.core.SolrCore; [knowledge-graph] Registered new searcher Searcher@3c7d69a3[knowledge-graph] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.core.SolrCore; [core0] Registered new searcher Searcher@38787b06[core0] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.core.CoreContainer; registering core: core0
+INFO  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.core.CoreContainer; registering core: knowledge-graph
+INFO  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.servlet.SolrDispatchFilter; user.dir=C:\projects\semantic-knowledge-graph\deploy\solr\server
+INFO  - 2019-04-04 00:31:06.940; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2019-04-04 00:31:06.971; [   ] org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2019-04-04 00:33:13.021; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554337993004} status=0 QTime=12 
+INFO  - 2019-04-04 00:33:13.068; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1554337993046} status=0 QTime=19 
+ERROR - 2019-04-04 00:33:23.032; [   knowledge-graph] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-bottom.html [C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\conf\admin-extra.menu-bottom.html]
+INFO  - 2019-04-04 00:33:23.034; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1554338002997} status=404 QTime=8 
+ERROR - 2019-04-04 00:33:23.032; [   knowledge-graph] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-top.html [C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\conf\admin-extra.menu-top.html]
+INFO  - 2019-04-04 00:33:23.036; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1554338002995} status=404 QTime=11 
+INFO  - 2019-04-04 00:33:23.081; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1554338003063} status=0 QTime=1 
+INFO  - 2019-04-04 00:33:23.085; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/replication params={wt=json&command=details&_=1554338003069} status=0 QTime=4 
+INFO  - 2019-04-04 00:33:23.085; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/system params={wt=json&_=1554338003071} status=0 QTime=3 
+ERROR - 2019-04-04 00:33:23.089; [   knowledge-graph] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\conf\admin-extra.html]
+INFO  - 2019-04-04 00:33:23.089; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1554338003072} status=404 QTime=1 
+INFO  - 2019-04-04 00:33:23.094; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554338003073} status=0 QTime=1 
+INFO  - 2019-04-04 00:33:32.852; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1554338012826} hits=0 status=0 QTime=18 
+INFO  - 2019-04-04 00:33:52.372; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/file params={wt=json&_=1554338032365} status=0 QTime=4 
+ERROR - 2019-04-04 00:35:11.896; [   knowledge-graph] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: KnowledgeGraphHandler requires POST data
+	at com.careerbuilder.search.relevancy.KnowledgeGraphHandler.throwWithClassName(KnowledgeGraphHandler.java:78)
+	at com.careerbuilder.search.relevancy.KnowledgeGraphHandler.getPostString(KnowledgeGraphHandler.java:65)
+	at com.careerbuilder.search.relevancy.KnowledgeGraphHandler.parsePost(KnowledgeGraphHandler.java:44)
+	at com.careerbuilder.search.relevancy.KnowledgeGraphHandler.handleRequestBody(KnowledgeGraphHandler.java:33)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2019-04-04 00:35:11.897; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/rel params={} status=400 QTime=4 
+INFO  - 2019-04-04 00:41:21.929; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1554338481923} status=0 QTime=1 
+INFO  - 2019-04-04 00:41:21.948; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1554338481944} status=0 QTime=0 
+INFO  - 2019-04-04 00:41:21.985; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/file params={wt=json&_=1554338481980} status=0 QTime=2 
+ERROR - 2019-04-04 00:41:25.607; [   core0] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-top.html [C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\conf\admin-extra.menu-top.html]
+INFO  - 2019-04-04 00:41:25.607; [   core0] org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1554338485601} status=404 QTime=1 
+ERROR - 2019-04-04 00:41:25.610; [   core0] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-bottom.html [C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\conf\admin-extra.menu-bottom.html]
+INFO  - 2019-04-04 00:41:25.611; [   core0] org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1554338485602} status=404 QTime=1 
+INFO  - 2019-04-04 00:41:25.642; [   core0] org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1554338485629} status=0 QTime=2 
+INFO  - 2019-04-04 00:41:25.646; [   core0] org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/replication params={wt=json&command=details&_=1554338485634} status=0 QTime=3 
+INFO  - 2019-04-04 00:41:25.655; [   core0] org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/admin/system params={wt=json&_=1554338485635} status=0 QTime=2 
+ERROR - 2019-04-04 00:41:25.658; [   core0] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\core0\conf\admin-extra.html]
+INFO  - 2019-04-04 00:41:25.658; [   core0] org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1554338485637} status=404 QTime=0 
+INFO  - 2019-04-04 00:41:25.661; [   core0] org.apache.solr.core.SolrCore; [core0] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554338485638} status=0 QTime=1 
+INFO  - 2019-04-04 00:41:28.999; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1554338488990} status=0 QTime=0 
+INFO  - 2019-04-04 00:41:29.004; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/replication params={wt=json&command=details&_=1554338488992} status=0 QTime=2 
+INFO  - 2019-04-04 00:41:29.006; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/system params={wt=json&_=1554338488993} status=0 QTime=2 
+ERROR - 2019-04-04 00:41:29.009; [   knowledge-graph] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [C:\projects\semantic-knowledge-graph\deploy\solr\server\solr\knowledge-graph\conf\admin-extra.html]
+INFO  - 2019-04-04 00:41:29.010; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1554338488995} status=404 QTime=1 
+INFO  - 2019-04-04 00:41:29.020; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1554338488996} status=0 QTime=0 
+INFO  - 2019-04-04 00:42:05.206; [   knowledge-graph] org.apache.solr.update.processor.LogUpdateProcessor; [knowledge-graph] webapp=/solr path=/update params={commitWithin=1000&wt=json&overwrite=true} {add=[1 (1629842073333006336), 2 (1629842073406406656), 3 (1629842073406406657), 4 (1629842073406406658), 5 (1629842073406406659), 6 (1629842073406406660), 7 (1629842073406406661), 8 (1629842073406406662), 9 (1629842073406406663), 10 (1629842073406406664)]} 0 110
+INFO  - 2019-04-04 00:42:06.218; [   knowledge-graph] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+INFO  - 2019-04-04 00:42:06.327; [   knowledge-graph] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@31e8477c[knowledge-graph] main
+INFO  - 2019-04-04 00:42:06.343; [   knowledge-graph] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2019-04-04 00:42:06.343; [   ] org.apache.solr.core.SolrCore; [knowledge-graph] Registered new searcher Searcher@31e8477c[knowledge-graph] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.1.0):C10)))}
+INFO  - 2019-04-04 00:42:16.413; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1554338536369} hits=10 status=0 QTime=6 
+ERROR - 2019-04-04 00:44:25.392; [   knowledge-graph] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Values of type "jobtitle" cannot be generated automatically or normalized (adapted as "jobtitle")
+	at com.careerbuilder.search.relevancy.FieldChecker.checkField(FieldChecker.java:14)
+	at com.careerbuilder.search.relevancy.RequestValidator.recurse(RequestValidator.java:37)
+	at com.careerbuilder.search.relevancy.RequestValidator.validate(RequestValidator.java:28)
+	at com.careerbuilder.search.relevancy.KnowledgeGraphHandler.handleRequestBody(KnowledgeGraphHandler.java:34)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2019-04-04 00:44:25.392; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/rel params={} status=400 QTime=16 
+INFO  - 2019-04-04 00:45:08.979; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1554338708961} status=0 QTime=0 
+INFO  - 2019-04-04 00:46:24.974; [   knowledge-graph] org.apache.solr.update.processor.LogUpdateProcessor; [knowledge-graph] webapp=/solr path=/update params={commitWithin=1000&wt=json&overwrite=true} {add=[1 (1629842345768779776), 2 (1629842345776119808), 3 (1629842345777168384), 4 (1629842345777168385), 5 (1629842345777168386), 6 (1629842345777168387), 7 (1629842345792897024), 8 (1629842345792897025), 9 (1629842345792897026), 10 (1629842345792897027)]} 0 29
+INFO  - 2019-04-04 00:46:25.962; [   knowledge-graph] org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+INFO  - 2019-04-04 00:46:25.993; [   knowledge-graph] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@3aa76cc6[knowledge-graph] main
+INFO  - 2019-04-04 00:46:25.993; [   knowledge-graph] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2019-04-04 00:46:25.993; [   ] org.apache.solr.core.SolrCore; [knowledge-graph] Registered new searcher Searcher@3aa76cc6[knowledge-graph] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.1.0):C10)))}
+INFO  - 2019-04-04 00:47:00.225; [   knowledge-graph] org.apache.solr.core.SolrCore; [knowledge-graph] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1554338820205} hits=10 status=0 QTime=1 
